@@ -16,7 +16,7 @@ assumed to have a stronger trend towards an opening of savanna vegetation and a 
 ## Data Set
 
 ## Results
-### Paramters of small EIAs from Multispectral Drone Imagery
+### Paramters of Small EIAs from Multispectral Drone Imagery
 
 |     | EIA2 Exp1 | EIA2 C1 | EIA2 C3 |
 | -------- | ------- |------- |------- |
