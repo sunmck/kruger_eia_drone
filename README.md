@@ -22,7 +22,7 @@ As a basic analysis, vegetation indices are calculated to compare the structure 
 
 ## Results
 ### Paramteres of Small EIAs from Multispectral Drone Imagery
-The resulted Digital Surface Model (DSM) and Digital Terrain Model (DTM) of the processed drone data, aswell as the Canopy Height Model (CHM) caluclated as the difference between the two can be found in `kruger_eia/dronedata/results`. Additionally, the detected tree tops and the crown area are shown in these files. In savanna vegetation, any standing vegetation with minimum height of 1.5 m can be considered a tree. 
+The resulted Digital Surface Model (DSM) and Digital Terrain Model (DTM) of the processed drone data, aswell as the Canopy Height Model (CHM) caluclated as the difference between the two can be found in `kruger_eia/droneflights/results`. Additionally, the detected tree tops and the crown area are shown in these files. In savanna vegetation, any standing vegetation with minimum height of 1.5 m can be considered a tree. 
 An overview of the most important parameters of all currently processed and analysed small EIAs can be found in Table 1.
 
 |     | EIA2 Exp1 | EIA2 C1 | EIA2 C3 |
