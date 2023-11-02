@@ -61,7 +61,7 @@ Therefore, we sampled some vegetation sites and used these for training a classi
 
 | ![EIA2Exp1_classification_chm_1](https://github.com/sunmck/kruger_eia/assets/116874799/3179b357-646c-448c-8a92-2427fa8e46b2) | ![EIA2Exp1_classification_trainingdata_1](https://github.com/sunmck/kruger_eia/assets/116874799/9abc0103-5e63-4a96-8fe3-9077b164ddd0) | ![EIA2Exp1_classification_rf_1](https://github.com/sunmck/kruger_eia/assets/116874799/b4c8b4f9-660b-468c-8b96-aaf0eb43f12f) |
 | -- | -- | -- |
-| **a** Classification based on CHM | **b** Training data for RF classification | **c** Classifcation of RF model |
+| **(a)** Classification based on CHM | **(b)** Training data for RF classification | **(c)** Classifcation of RF model |
 
 ***Figure 3:** Vegetation Classification of EIA2 Exp1.* 
 
