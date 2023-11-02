@@ -14,16 +14,13 @@ by debarking and knocking down specific tree species such as the Marula (Scleroc
 assumed to have a stronger trend towards an opening of savanna vegetation and a declie of large trees in comparison to areas of lower elephant impact.
 
 ## Data Set
+Drone flights were conducted from the 6th to the 10th August 2023 on selected trianguar small EIAs. The drone was DJI's Mavic 3 Multispectral which records the following bands: Green (560 nm), Red (650 nm), Red Edge (730 nm), Near Infrared (860 nm) and an additional RGB camera. Processing of the multispectral drone data was conducted using the software Pix4D and included allignment of the photos, point cloud generation and densification as well as the calculation of a DSM, DTM and Orthomosaic.
 
-## Methods
-### Analysis of Small EIAs from Multispectral Drone Imagery
-Processing of the multispectral drone data was conducted using the software Pix4D. 
-As a basic analysis, vegetation indices are calculated to compare the structure of different EIAs among each other. Using the `lidR` package in R, individual trees are then detected and segmented. Tree tops are detected by applying a Local Maximum Filter (LMF) on the loaded data set. For a given point, the algorithm analyzes neighborhood points, checking if the processed point is the highest. The size of the moving window determines the size of the analysed neighborhood.
-
-## Results
+## Methods and Results
 ### Paramteres of Small EIAs from Multispectral Drone Imagery
-The resulted Digital Surface Model (DSM) and Digital Terrain Model (DTM) of the processed drone data, aswell as the Canopy Height Model (CHM) caluclated as the difference between the two can be found in `kruger_eia/droneflights/results`. Additionally, the detected tree tops and the crown area are shown in these files. In savanna vegetation, any standing vegetation with minimum height of 1.5 m can be considered a tree. 
-An overview of the most important parameters of all currently processed and analysed small EIAs can be found in Table 1.
+The DTM was substracted from the DSM to calculate a Canopy Height Model (CHM). Using the `lidR` package in R, individual trees can be detected and segmented from this data. In savanna vegetation, any standing vegetation with minimum height of 1.5 m can be considered a tree. Tree tops are detected by applying a Local Maximum Filter (LMF) on the loaded data set. For a given point, the algorithm analyzes neighborhood points, checking if the processed point is the highest. The size of the moving window determines the size of the analysed neighborhood. As a basic analysis, vegetation indices are calculated to compare the structure of different EIAs among each other. 
+
+The results of all currently processed and analysed small EIAs are located in `kruger_eia/droneflights/results`. This includes the DSM, DTM, CHM, detected tree tops and canopy area. An overview of the most important parameters of is given in Table 1.
 
 |     | EIA2 Exp1 | EIA2 C1 | EIA2 C3 |
 | -------- | ------- |------- |------- |
@@ -46,7 +43,7 @@ We propose two different approaches of classifying savanna vegetation in the sma
   1. a classification based on the heights of the CHM and
   2. a supervised RF model trained with ground truth data collected in the field.
 
-The selection of a suitable method depends on the applied context. If only wanting to classify the inside of the small EIAs, a classification based on the CHM is most accurate. In this case, we classified 0 to 0.5 m as bare Soil / Grassland, 0.5 to 1.5 as shrubs, 1.5 to 5 m as small trees and everything else as big trees. However, when wanting to train a model to classify bigger areas, these classes are too small and segmentated.
+The selection of a suitable method depends on the applied context. If only wanting to classify the inside of the small EIAs, a classification based on the CHM is most accurate. In this case, we classified 0 to 0.5 m as bare soil / grassland, 0.5 to 1.5 as shrubs, 1.5 to 5 m as small trees and everything else as big trees. However, when wanting to train a model to classify bigger areas, these classes are too small and segmentated.
 
 Therefore, we sampled some vegetation sites and used these for training a classification model. Results are promising with an overall accuracy of 0.77. All results are shown in Figure 1.
 
@@ -55,7 +52,6 @@ Therefore, we sampled some vegetation sites and used these for training a classi
 | **(a)** Classification based on CHM | **(b)** Training data for RF classification | **(c)** Classifcation of RF model |
 
 ***Figure 1:** Vegetation Classification of EIA2 Exp1.* 
-
 
 ## Outlook
 This project should be taken as a basis for a possible change detection analysis as future work. If the same drone flights can be conducted at a similiar time within the next years, very interesting changes in the vegetation could be discovered. This could include changes in the number of trees and especially of big trees as well as changes in the area of grassland or shrubs.
