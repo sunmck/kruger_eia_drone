@@ -18,7 +18,7 @@ Drone flights were conducted from the 6th to the 10th August 2023 on selected tr
 ### Paramteres of Small EIAs from Multispectral Drone Imagery
 The DTM was substracted from the DSM to calculate a Canopy Height Model (CHM). Using the `lidR` package in R, individual trees can be detected and segmented from this data. In savanna vegetation, any standing vegetation with minimum height of 1.5 m can be considered a tree. Tree tops are detected by applying a Local Maximum Filter (LMF) on the loaded data set. For a given point, the algorithm analyzes neighborhood points, checking if the processed point is the highest. The size of the moving window determines the size of the analysed neighborhood. As a basic analysis, vegetation indices are calculated to compare the structure of different EIAs among each other. 
 
-The results of all currently processed and analysed small EIAs are located in `kruger_eia/droneflights/results`. This includes the DSM, DTM, CHM, detected tree tops and canopy area. An overview of the most important parameters of is given in Table 1.
+The results of all currently processed and analysed small EIAs are located in `kruger_eia_drone/results`. This includes the DSM, DTM, CHM, detected tree tops and canopy area. An overview of the most important parameters of is given in Table 1.
 
 |     | EIA2 Exp1 | EIA2 C1 | EIA2 C3 |
 | -------- | ------- |------- |------- |
