@@ -18,7 +18,8 @@ classnames_string <- c("BareSoilSand", "OpenGrassland", "SmallShrubs", "TreesShr
 EIA_name <- "EIA2 Exp1"
 
 ## DATA
-setwd("C://Users/avinn/Documents/Master/Semester3/ElephantTransects/")
+# TODO: set wd
+setwd("")
 
 # load training and drone data
 training <- sf::st_read("./data/classification/training_vegetation/training_EIA2C3.shp")
