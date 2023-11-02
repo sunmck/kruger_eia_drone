@@ -1,4 +1,4 @@
-# Analyzing Changes of Vegetation in Kruger Nationalpark due to the Impact of the African Elephant
+# Analyzing Changes of Vegetation in Small Elephant Impact Areas of Kruger Nationalpark with Multispectral UAV Data
 
 ## Introduction
 Welcome to the Kruger Git of the Internship at Kruger National Park's Scientific Services. Here, we present a collection of multiple approaches 
