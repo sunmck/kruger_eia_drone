@@ -12,7 +12,7 @@ curb woody thickening and therefore structuring the physical environment with po
 by debarking and knocking down specific tree species such as the Marula (Sclerocarya birrea) and Knobthorn (Acacia nigrescens) trees. Areas of high elephant impact are therefore assumed to have a stronger trend towards an opening of savanna vegetation and a declie of large trees in comparison to areas of lower elephant impact.
 
 ## Data Set
-Drone flights were conducted from the 6th to the 10th August 2023 on selected trianguar small EIAs. The drone was DJI's Mavic 3 Multispectral which records the following bands: Green (560 nm), Red (650 nm), Red Edge (730 nm), Near Infrared (860 nm) and an additional RGB camera. Processing of the multispectral drone data was conducted using the software Pix4D and included allignment of the photos, point cloud generation and densification as well as the calculation of a DSM, DTM and Orthomosaic.
+Drone flights were conducted from the 6th to the 10th August 2023 on selected trianguar small EIAs. The areas can be found in the folder `kruger_eia_drone/aoi`. The drone was DJI's Mavic 3 Multispectral which records the following bands: Green (560 nm), Red (650 nm), Red Edge (730 nm), Near Infrared (860 nm) and an additional RGB camera. Processing of the multispectral drone data was conducted using the software Pix4D and included allignment of the photos, point cloud generation and densification as well as the calculation of a DSM, DTM and Orthomosaic.
 
 For the supervised classification of the vegetation, samples were labelled for EIA2 Exp1, C1 and C3. These can be found in the folder `kruger_eia_drone/training`. Exeplary pictures of the different classes are shown in Figure 1.
 
