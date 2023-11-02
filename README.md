@@ -1,7 +1,7 @@
 # Analyzing Changes of Vegetation in Small Elephant Impact Areas of Kruger Nationalpark with Multispectral UAV Data
 
 ## Introduction
-Welcome to the Kruger Git of the Internship at Kruger National Park's Scientific Services. Here, we present a collection of multiple approaches 
+Welcome to the Kruger Git Pt. 2 of the Internship at Kruger National Park's Scientific Services. Here, we present a collection of multiple approaches 
 using different remote sensing products to analyse changes of the savanna vegetation in the national park due to the impact of the African Elephant (Loxodonta africana). The aim is to see if we can confirm changes in vegetation that have been recorded by game rangers in the field in remote sensing data.
 
 In this project, we proccessed and analysed drone data collected in August 2023 in specific small Elephant Impact Areas (EIAs) in the southern KNP around the Sabie river. This is an analysis of the first flights and thus only a momentary time stamp. We hope that the flights will be repeated in the upcoming years to use this repository as a basis for change detections and time series analysis.
