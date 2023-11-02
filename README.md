@@ -2,16 +2,14 @@
 
 ## Introduction
 Welcome to the Kruger Git of the Internship at Kruger National Park's Scientific Services. Here, we present a collection of multiple approaches 
-using different remote sensing products to analyse changes of the savanna vegetation in the national park due to the impact of the African Elephant (Loxodonta africana).
-We proccessed and analysed drone data collected in August 2023 in specific small Elephant Impact Areas (EIAs) in the southern park around the Sabie river. Additionally,
-we analyse a time series of MODIS vegetation indice products and of various land cover classifications. The aim is to find out whether we can confirm changes in vegetation, that 
-have been recorded by game rangers in the field, with remote sensing data.
+using different remote sensing products to analyse changes of the savanna vegetation in the national park due to the impact of the African Elephant (Loxodonta africana). The aim is to see if we can confirm changes in vegetation that have been recorded by game rangers in the field in remote sensing data.
+
+In this project, we proccessed and analysed drone data collected in August 2023 in specific small Elephant Impact Areas (EIAs) in the southern KNP around the Sabie river. This is an analysis of the first flights and thus only a momentary time stamp. We hope that the flights will be repeated in the upcoming years to use this repository as a basis for change detections and time series analysis.
 
 ## Background
 The impact of the African Elephant as an "environmental engineer" is a highly discussed topic in the Kruger National Park amongst many other. Whist elephants act to 
 curb woody thickening and therefore structuring the physical environment with positive consequences for other fauna, they are feared to potentially decrease biodiversity
-by debarking and knocking down specific tree species such as the Marula (Sclerocarya birrea) and Knobthorn (Acacia nigrescens) trees. Areas of high elephant impact are therefore
-assumed to have a stronger trend towards an opening of savanna vegetation and a declie of large trees in comparison to areas of lower elephant impact.
+by debarking and knocking down specific tree species such as the Marula (Sclerocarya birrea) and Knobthorn (Acacia nigrescens) trees. Areas of high elephant impact are therefore assumed to have a stronger trend towards an opening of savanna vegetation and a declie of large trees in comparison to areas of lower elephant impact.
 
 ## Data Set
 Drone flights were conducted from the 6th to the 10th August 2023 on selected trianguar small EIAs. The drone was DJI's Mavic 3 Multispectral which records the following bands: Green (560 nm), Red (650 nm), Red Edge (730 nm), Near Infrared (860 nm) and an additional RGB camera. Processing of the multispectral drone data was conducted using the software Pix4D and included allignment of the photos, point cloud generation and densification as well as the calculation of a DSM, DTM and Orthomosaic.
