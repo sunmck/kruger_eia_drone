@@ -1,4 +1,4 @@
-# Analyzing Changes of Vegetation in Small Elephant Impact Areas of Kruger Nationalpark with Multispectral UAV Data
+# Analyzing Vegetation in Small Elephant Impact Areas of Kruger Nationalpark based on Multispectral UAV Data
 
 ## Introduction
 Welcome to the Kruger Git Pt. 2 of the Internship at Kruger National Park's Scientific Services. Here, we present a collection of multiple approaches 
