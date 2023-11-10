@@ -51,7 +51,7 @@ We propose two different approaches of classifying savanna vegetation in the sma
 
 The selection of a suitable method depends on the applied context. If only wanting to classify the inside of the small EIAs, a classification based on the CHM is most accurate. In this case, we classified 0 to 0.5 m as bare soil / grassland, 0.5 to 1.5 as shrubs, 1.5 to 5 m as small trees and everything else as big trees. However, when wanting to train a model to classify bigger areas, these classes are too small and segmentated.
 
-Therefore, we sampled some vegetation sites and used these for training a classification model. Results are promising with an overall accuracy of 0.77. All results are shown in Figure 2.
+Therefore, we sampled some vegetation sites and used these for training a classification model. Results are promising with an overall accuracy of 0.77 for EIA2 Exp1. This exemplary result is shown in Figure 2.
 
 | ![EIA2Exp1_classification_chm_1](https://github.com/sunmck/kruger_eia/assets/116874799/3179b357-646c-448c-8a92-2427fa8e46b2) | ![EIA2Exp1_classification_trainingdata_1](https://github.com/sunmck/kruger_eia/assets/116874799/9abc0103-5e63-4a96-8fe3-9077b164ddd0) | ![EIA2Exp1_classification_rf_1](https://github.com/sunmck/kruger_eia/assets/116874799/b4c8b4f9-660b-468c-8b96-aaf0eb43f12f) |
 | -- | -- | -- |
