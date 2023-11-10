@@ -115,8 +115,8 @@ CHM <- aggregate(CHM, 10) # lower resolution to limit computational time
 
 # plot
 par(mfrow = c(1,3))
-plot(DSM, main = "DTM")
-plot(DTM, main = "DSM")
+plot(DSM, main = "DSM")
+plot(DTM, main = "DTM")
 plot(CHM, main = "CHM")
 
 ## ANALYSIS
