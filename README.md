@@ -60,6 +60,6 @@ Therefore, we sampled some vegetation sites and used these for training a classi
 ***Figure 2:** Vegetation Classification of EIA2 Exp1.* 
 
 ## Outlook
-This project should be taken as a basis for a possible change detection analysis as future work. If the same drone flights can be conducted at a similiar time within the next years, very interesting changes in the vegetation could be discovered. This could include changes in the number of trees and especially of big trees as well as changes in the area of grassland or shrubs. 🌳
+This project should be taken as a basis for a possible change detection analysis as future work. If the same drone flights can be conducted at a similiar time within the next years, very interesting changes in the vegetation could be discovered. This could include changes in the number of trees and especially of big trees as well as changes in the area of grassland or shrubs. 🚀
 
 
